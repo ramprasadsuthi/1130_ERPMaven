@@ -15,6 +15,7 @@ public class Calculator {
 	  a = num1;
 	  b = num2;
 	  System.out.println("This line is added in Eclipse");
+	  System.out.println("This line is added in GITHUB Server");
 	}
 	
 	@When("User calculates sum of a,b")
