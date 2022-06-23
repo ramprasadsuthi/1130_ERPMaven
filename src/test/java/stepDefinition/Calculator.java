@@ -14,6 +14,7 @@ public class Calculator {
 	public void user_reads_a_and_b_values(int num1, int num2) {
 	  a = num1;
 	  b = num2;
+	  System.out.println("This line is added in Eclipse");
 	}
 	
 	@When("User calculates sum of a,b")
