@@ -22,6 +22,7 @@ public class BaseMethods {
 	}
 	
 	public static void loginERP() {
+		// This code belongs to login methods 
 		driver.findElement(By.id("username")).clear();
 		driver.findElement(By.id("password")).clear();
 		driver.findElement(By.id("username")).sendKeys("admin");
